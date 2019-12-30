@@ -9,7 +9,7 @@ var fs = require("request");
 var keys = require("./keys.js");
 
 // Initialize Spotify
-var Spotify = require('node-spotify-api');
+var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
 
 // User Command and Input
